@@ -1,0 +1,39 @@
+:root {
+	--black-10: rgba(0, 0, 0, 0.1);
+	--black-65: rgba(0, 0, 0, 0.65);
+	--grey-50: #ebeef5;
+	--grey-100: #767e94;
+	--grey-200: #9ba5b7;
+	--grey-300: #8e95a9;
+	--grey-600: #475069;
+	--primary-400: #7b6ef6;
+	--white-100: #ffffff;
+	--rounded-xl: 12px;
+	--rounded-3xl: 24px;
+	--success-400: #37d8a7;
+	--warning-500: #ffad49;
+	--card-bg-color: rgba(32, 40, 62, 0.8);
+	--header-nav-bg-color: rgba(18, 24, 41, 0.8);
+}
+
+body {
+	font-family: 'Poppins', serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #121829;
+	color: var(--grey-50);
+}
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
